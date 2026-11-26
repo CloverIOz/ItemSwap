@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
@@ -26,5 +26,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: ItemSwap
+          name: HandySlots
           path: build/libs/*.jar

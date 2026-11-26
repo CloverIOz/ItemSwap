@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "handyslots",
+  "version": "${version}",
+  "name": "HandySlots",
+  "description": "Legit toggle-swap binder: moves an inventory item to the hotbar or the left hand and back.",
+  "authors": ["HandySlots"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.handyslots.HandySlotsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
